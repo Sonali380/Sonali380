@@ -1,0 +1,2 @@
+select PASSENGER_ID,COUNTRY_NAME,FIRST_NAME,LAST_NAME,GENDER, AGE, NATIONALITY, AIRPORT_NAME 
+from DBT_AIR.DBT_Sonali380.src_airline where COUNTRY_NAME in ('United States','Canada','Brazil','Australia')
