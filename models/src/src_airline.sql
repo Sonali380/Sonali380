@@ -1,7 +1,7 @@
 with raw_airline as (
 select
 * 
-from DBT_AIR.RAW.DBT_AIRPORT
+from DBT_DBT_AIR.RAW.EX_DATA
 )
 select 
     PASSENGER_ID, 
